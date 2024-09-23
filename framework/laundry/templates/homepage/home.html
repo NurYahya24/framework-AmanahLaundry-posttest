@@ -1,0 +1,119 @@
+<!-- home.html -->
+{% extends 'homepage/base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="bg-image text-white text-center py-5">
+    <div class="container">
+        <h1 class="display-4">Amanah Laundry Services</h1>
+        <p class="lead">Fast, Affordable, and Reliable Laundry Solutions</p>
+        <a href="#services" class="btn btn-light btn-lg mt-4">Discover Our Services</a>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-5">
+    <div class="container text-center">
+        <h2>Our Services</h2>
+        <p class="lead">We offer a range of laundry services to meet your needs.</p>
+        <div class="row g-4">
+            <!-- Services Cards -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Wash & Fold</h5>
+                        <p class="card-text">We provide top-notch wash and fold services with same-day delivery.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Dry Cleaning</h5>
+                        <p class="card-text">Our premium dry cleaning service ensures your clothes look fresh and crisp.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Pickup & Delivery</h5>
+                        <p class="card-text">Enjoy convenient pickup and delivery service from your home or office.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pricing Section -->
+<section id="pricing" class="bg-light py-5">
+    <div class="container text-center">
+        <h2>Pricing Plans</h2>
+        <p class="lead">Affordable laundry services for everyone</p>
+        <div class="row g-4">
+            <!-- Pricing Cards -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Basic Plan</h5>
+                        <p class="card-text">Wash & Fold</p>
+                        <p class="card-text">Rp. 10.000/load</p>
+                        <a href="#" class="btn btn-outline-primary">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Dry Cleaning</h5>
+                        <p class="card-text">Premium Care</p>
+                        <p class="card-text">Rp. 20.000/item</p>
+                        <a href="#" class="btn btn-outline-primary">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Pickup & Delivery</h5>
+                        <p class="card-text">Convenience at your doorstep</p>
+                        <p class="card-text">+Rp. 5000</p>
+                        <a href="#" class="btn btn-outline-primary">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- Contact Section -->
+ <section id="contact" class="bg-light py-5">
+    <div class="container text-center">
+      <h2>Contact Us</h2>
+      <p class="lead">Get in touch with us today</p>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+</section>
+
+{% endblock %}

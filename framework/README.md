@@ -1,0 +1,6 @@
+# NIM : 2109106073
+# NAMA : NUR YAHYA
+
+## POSTTEST 1
+
+![SS 1](ss/SS1.png)
